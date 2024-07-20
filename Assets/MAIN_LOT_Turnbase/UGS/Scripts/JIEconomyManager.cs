@@ -205,7 +205,7 @@ namespace JumpeeIsland
 
             return _playersInventory;
         }
-
+        
         private Task<GetInventoryResult> LoadPlayerInventory()
         {
             var options = new GetInventoryOptions { ItemsPerFetch = 100 };
